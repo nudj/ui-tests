@@ -1,0 +1,5 @@
+node_modules
+/website/screenshots/*
+/hire/screenshots/*
+*.png
+package-lock.json
