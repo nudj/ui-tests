@@ -1,0 +1,11 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Automated UI testing repository for nudj",
+  "main": "",
+  "dependencies": {
+    "testcafe": "^0.18.1"
+  },
+  "author": "Jamie Gunson",
+  "license": "ISC"
+}
