@@ -14,3 +14,8 @@
 `testcafe [options] <browser-list-comma-separated> <file>`
 
 For more details see [testcafe docs](https://devexpress.github.io/testcafe/documentation/getting-started/).
+
+## Experimental Docker based approach
+
+1. Make sure `web` is running
+1. Run `docker run -v $(pwd)/website:/tests -it --link web-dev:target testcafe/testcafe -s tests/screenshots 'firefox' ./tests/tests.js`

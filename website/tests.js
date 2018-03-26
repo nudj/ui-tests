@@ -56,10 +56,10 @@ test('Nudjee can view more info', async t => {
 test('Nudjee can nudj', async t => {
   await t
   .click(shareButton)
-  .click(loginTab)
-  .typeText(email, 'jamie+testing@nudj.co')
-  .typeText(password, 'Password')
-  .click(loginButton)
+  // .click(loginTab)
+  // .typeText(email, 'jamie+testing@nudj.co')
+  // .typeText(password, 'Password')
+  // .click(loginButton)
 
   const location = await t.eval(() => window.location)
 
@@ -77,10 +77,10 @@ test('Nudjee can apply', async t => {
   await t
   .resizeWindow(1440, 1024)
   .click(applyButton)
-  .click(loginTab)
-  .typeText(email, 'jamie+testing@nudj.co')
-  .typeText(password, 'Password')
-  .click(loginButton)
+  // .click(loginTab)
+  // .typeText(email, 'jamie+testing@nudj.co')
+  // .typeText(password, 'Password')
+  // .click(loginButton)
 
   const location = await t.eval(() => window.location)
 
